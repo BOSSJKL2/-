@@ -27,6 +27,7 @@ local EpicSaxGuy = Instance.new("TextButton")
 local EpicSaxGuys = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local Disc0s = Instance.new("TextButton")
+local DISC0S = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local e2006Themes = Instance.new("TextButton")
 local E2006THEMES = Instance.new("TextButton")
@@ -49,13 +50,13 @@ Frame.Size = UDim2.new(0, 378, 0, 250)
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
-Credits.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Credits.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BorderSizePixel = 3
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
-Credits.Text = "MUSIC"
+Credits.Text = "PAGE3"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
@@ -66,6 +67,8 @@ dss.Visible = true
 daytonights.Visible = true
 e1x1x1x1laughs.Visible = true
 CREDITS.Visible = true
+f666.Visible = true
+DISC0S.Visible = true
 Credits.Visible = false
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
@@ -80,7 +83,7 @@ wait(0.2)
 end)
 CREDITS.Name = "Credits"
 CREDITS.Parent = Frame
-CREDITS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+CREDITS.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 CREDITS.Visible = false
 CREDITS.BorderColor3 = Color3.fromRGB(255, 255, 255)
 CREDITS.BorderSizePixel = 3
@@ -98,6 +101,8 @@ dss.Visible = false
 CREDITS.Visible = false
 daytonights.Visible = false
 e1x1x1x1laughs.Visible = false
+f666.Visible = false
+DISC0S.Visible = false
 Credits.Visible = true
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
@@ -110,14 +115,14 @@ EpicSaxGuy.Visible = true
 e666.Visible = true
 wait(0.2)
 end)
-local upd = 2.73
+local upd = 2.74
 Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Name.BackgroundTransparency = 1.000
 Name.Size = UDim2.new(0, 378, 0, 25)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "b00sjkidd gui👑"..upd
+Name.Text = "b00sjkidd👑"..upd
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
@@ -141,7 +146,7 @@ while true do
 game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "team JKLO",
         Text = "JOIN TEAM JKLO TODAY!",
-        Icon = "http://www.roblox.com/asset/?id=15487393092",
+        Icon = "http://www.roblox.com/asset/?id=15651176489",
         Callback = Function
     })
     wait(1)
@@ -244,13 +249,13 @@ ARS.Visible = false
 ARS.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 ARS.Size = UDim2.new(0, 79, 0, 31)
 ARS.Font = Enum.Font.GothamBold
-ARS.Text = "JKLO PARTICLES"
+ARS.Text = "DREAMYBULLXXX PARTICLES"
 ARS.TextColor3 = Color3.fromRGB(0, 0, 0)
 ARS.TextScaled = true
 ARS.TextSize = 14.000
 ARS.TextWrapped = true
 ARS.MouseButton1Down:connect(function()
-local ID = 15511150536 -- Change your ID here fellas cXz (Image ID)
+local ID = 15681662754 -- Change your ID here fellas cXz (Image ID)
  local particle = true
 
 -- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
@@ -435,7 +440,7 @@ Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://6942391979"
 		Spooky.Volume = 6e9
-                Spooky.Pitch = 1.1
+                Spooky.Pitch = 0.8
 		Spooky.Looped = true
 		Spooky:Play()
 end)
@@ -874,18 +879,24 @@ daytonights.Visible = false
 daytonights.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
 daytonights.Size = UDim2.new(0, 83, 0, 31)
 daytonights.Font = Enum.Font.GothamBold
-daytonights.Text = "BLOOD POP"
+daytonights.Text = "JUMPSTYLE VERRY LOUD"
 daytonights.TextColor3 = Color3.fromRGB(0, 0, 0)
 daytonights.TextScaled = true
 daytonights.TextSize = 14.000
 daytonights.TextWrapped = true
 daytonights.MouseButton1Down:connect(function()
-k00p = Instance.new("Sound", game.Workspace)
-		k00p.Name = "k00p"
-		k00p.SoundId = "rbxassetid://6783714255"
-		k00p.Volume = 9e9
-        k00p.Pitch = 0.85
-		k00p:Play()
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://1839246711"
+sound.Volume = 9e9
+sound:Play()
+sound.Looped = true
+repeat
+wait(0.01)
+until sound.IsLoaded == true
+wait(13)
+de = Instance.new("DistortionSoundEffect",sound)
+de.Level = 0.8
 end)
 e666.Name = "e666"
 e666.Parent = Frame
@@ -895,7 +906,7 @@ e666.BorderSizePixel = 3
 e666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 e666.Size = UDim2.new(0, 83, 0, 31)
 e666.Font = Enum.Font.GothamBold
-e666.Text = "NEXT"
+e666.Text = "PAGE2"
 e666.TextColor3 = Color3.fromRGB(0, 0, 0)
 e666.TextScaled = true
 e666.TextSize = 14.000
@@ -936,7 +947,7 @@ a666.Visible = false
 a666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 a666.Size = UDim2.new(0, 83, 0, 31)
 a666.Font = Enum.Font.GothamBold
-a666.Text = "NEXT"
+a666.Text = "BACK"
 a666.TextColor3 = Color3.fromRGB(0, 0, 0)
 a666.TextScaled = true
 a666.TextSize = 14.000
@@ -968,20 +979,25 @@ wait(0.2)
 end)
 f666.Name = "e666"
 f666.Parent = Frame
-f666.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+f666.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 f666.BorderColor3 = Color3.fromRGB(255, 255, 255)
 f666.BorderSizePixel = 3
 f666.Visible = false
 f666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 f666.Size = UDim2.new(0, 83, 0, 31)
 f666.Font = Enum.Font.GothamBold
-f666.Text = "NEXT"
+f666.Text = "DREAMYBULLXXX SKY"
 f666.TextColor3 = Color3.fromRGB(0, 0, 0)
 f666.TextScaled = true
 f666.TextSize = 14.000
 f666.TextWrapped = true
 f666.MouseButton1Down:connect(function()
-
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "rbxassetid://15681662754"
+sky.SkyboxFt = "rbxassetid://15681662754"
+sky.SkyboxLf = "rbxassetid://15681662754"
+sky.SkyboxRt = "rbxassetid://15681662754"
+sky.SkyboxUp = "rbxassetid://15681662754"
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
@@ -991,7 +1007,7 @@ EpicSaxGuy.BorderSizePixel = 3
 EpicSaxGuy.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuy.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuy.Font = Enum.Font.GothamBold
-EpicSaxGuy.Text = "BOSSJKLOJumpscare"
+EpicSaxGuy.Text = "YCOOBJIDDJumpscare"
 EpicSaxGuy.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuy.TextScaled = true
 EpicSaxGuy.TextSize = 14.000
@@ -1004,9 +1020,11 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				local newgui = Instance.new("ScreenGui",v.PlayerGui)
 				newgui.Name = "k00p's Jumpscare"
 				local newimage = Instance.new("ImageLabel",newgui)
-				newimage.Image = "http://www.roblox.com/Asset/?id=15573950094"
+				newimage.Image = "http://www.roblox.com/Asset/?id=15672147619"
 				newimage.Size = UDim2.new(1,1,1,1)
                                 newimage.BackgroundTransparency = 1
+                                local m = Instance.new("Hint", game.workspace)
+		                m.Text = " YCOOBJIDD JOINED TO DESTROY HAHA!11!2!"
 				local s = Instance.new("Sound",newgui)
 				s.SoundId = "rbxassetid://8683380188"
 				s.Volume = 9e9
@@ -1031,7 +1049,7 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "TROLL"
+EpicSaxGuys.Text = "DREAMYBULLXXX NEXTBOT"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
@@ -1041,11 +1059,11 @@ wait(0.1)
 gui1 = Instance.new("BillboardGui")
 gui1.Parent = game.Workspace.Tubers93HKRB.Head
 gui1.Adornee = game.Workspace.Tubers93HKRB.Head
-gui1.Size = UDim2.new(2.5,0,2.5,0)
+gui1.Size = UDim2.new(10,0,10,0)
 gui1.StudsOffset = Vector3.new(0,0,0)
 gui1.AlwaysOnTop = true
 text1 = Instance.new("ImageLabel")
-text1.Image = "http://www.roblox.com/asset/?id=45120559"
+text1.Image = "http://www.roblox.com/asset/?id=15681662754"
 text1.Size = UDim2.new(1,0,1,0)
 text1.Position = UDim2.new(0,0,0,0)
 text1.BackgroundTransparency = 1
@@ -1332,6 +1350,95 @@ local h = Instance.new("Hint")
 h.Text = ""
 h.Parent = workspace
 end)
+DISC0S.Name = "Disc0"
+DISC0S.Parent = Frame
+DISC0S.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+DISC0S.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DISC0S.BorderSizePixel = 3
+DISC0S.Visible = false
+DISC0S.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
+DISC0S.Size = UDim2.new(0, 89, 0, 31)
+DISC0S.Font = Enum.Font.GothamBold
+DISC0S.Text = "JUMPIFY"
+DISC0S.TextColor3 = Color3.fromRGB(0, 0, 0)
+DISC0S.TextScaled = true
+DISC0S.TextSize = 14.000
+DISC0S.TextWrapped = true
+DISC0S.MouseButton1Down:connect(function()
+local ID = 15690319034
+local particle = true
+
+-- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
+
+if particle == true then
+	for i,v in pairs (game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			local particle = Instance.new("ParticleEmitter")
+			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+			particle.Parent = v
+			particle.Rate = 200
+			for i,x in pairs (game.Workspace:GetChildren()) do
+				if x:IsA("Model") then
+					for i,z in pairs (x:GetChildren()) do
+						if z:IsA("Part") then
+							local particle2 = Instance.new("ParticleEmitter")
+							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+							particle2.Parent = z
+							particle2.Rate = 200
+						end
+					end
+				end
+			end
+		end
+	end
+end
+wait()
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=15690319034"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=15690319034"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=15690319034"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=15690319034"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=15690319034"
+wait()
+local ID = 11379488396 --id here
+function spamDecal(v)
+	if v:IsA("Part") then
+		for i = 0, 5 do
+			D = Instance.new("Decal")
+			D.Name = "k00pz_decal_1"
+			D.Face = i
+			D.Parent = v
+			D.Texture = ("http://www.roblox.com/asset/?id="..Id)
+		end
+	else
+		if v:IsA("Model") then
+			for a,b in pairs(v:GetChildren()) do
+				spamDecal(b)
+			end
+		end
+	end
+end
+function decalspam(id) --use this function, not the one on top
+	Id = id
+	for i,v in pairs(game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			for i= 0, 5 do
+				D = Instance.new("Decal")
+				D.Name = "k00pz_decal_2"
+				D.Face = i
+				D.Parent = v
+				D.Texture = ("http://www.roblox.com/asset/?id="..id)
+			end
+		else
+			if v:IsA("Model") then
+				for a,b in pairs(v:GetChildren()) do
+					spamDecal(b)
+				end
+			end
+		end
+	end
+end
+end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
 e2006Theme.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
@@ -1347,14 +1454,11 @@ e2006Theme.TextSize = 14.000
 e2006Theme.TextWrapped = true
 e2006Theme.MouseButton1Down:connect(function()
 	--Made by Servano
-
-local A_1 = "JKLO_TEAM!!                                                                                                                                              [😡] TEAM JKLO HAS JOINED TODAY."
+local A_1 = "😡TEAM JKLO HERE!1!2!3!4!"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-
 wait(1)	
-
 end)
 e2006Themes.Name = "e2006Theme"
 e2006Themes.Parent = Frame
@@ -1402,12 +1506,12 @@ E2006THEMES.TextWrapped = true
 E2006THEMES.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15487393092"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15487393092"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15487393092"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15487393092"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15487393092"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15487393092"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15651176489"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15651176489"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15651176489"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15651176489"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15651176489"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15651176489"
                 s.Parent = game.Lighting
 wait()
 E2006THEMES.Visible = false
@@ -1439,23 +1543,33 @@ ForceFields.BorderSizePixel = 3
 ForceFields.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceFields.Size = UDim2.new(0, 89, 0, 34)
 ForceFields.Font = Enum.Font.GothamBold
-ForceFields.Text = "FREDDY🐻"
+ForceFields.Text = "JKLO Chat2"
 ForceFields.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceFields.TextScaled = true
 ForceFields.TextSize = 14.000
 ForceFields.TextWrapped = true
 ForceFields.MouseButton1Down:connect(function()
-local A_1 = "YOUR SO FREDDY🐻"
+local A_1 = "😡TEAM BOSSJKLO AND JUPAL HAS HACKED YOUR GAME 😡"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-wait(1)
-local A_1 = "YOUR SO FAZBEAR🐻"
+wait(2)
+local A_1 = "😡HAHAH!?!?1😡"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-wait(1)
-local A_1 = "har har har har har har🐻"
+wait(1.5)
+local A_1 = "😡WE WILL BE ROBLOX FOR A LONG T1ME!!111😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(2)
+local A_1 = "😡HAHAHA YOU'VE BEEN TROLLED LOL!!111😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(1.5)
+local A_1 = "😡SO FUNNI GUYS!!111😡"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
