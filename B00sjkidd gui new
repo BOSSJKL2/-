@@ -5,10 +5,12 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
 local Credits = Instance.new("TextButton")
 local CREDITS = Instance.new("TextButton")
-local Name = Instance.new("TextLabel")
+local PAGE4 = Instance.new("TextButton")
 local AR = Instance.new("TextButton")
+local DR = Instance.new("TextButton")
 local DS = Instance.new("TextButton")
 local ARS = Instance.new("TextButton")
 local DSS = Instance.new("TextButton")
@@ -26,11 +28,13 @@ local f666 = Instance.new("TextButton")
 local EpicSaxGuy = Instance.new("TextButton")
 local EpicSaxGuys = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
+local IMAGE = Instance.new("ImageLabel")
 local Disc0s = Instance.new("TextButton")
 local DISC0S = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local e2006Themes = Instance.new("TextButton")
 local E2006THEMES = Instance.new("TextButton")
+local e2006themeS = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
 local ForceFields = Instance.new("TextButton")
 
@@ -46,7 +50,19 @@ Frame.BackgroundTransparency = 0.447
 Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderSizePixel = 3
 Frame.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
-Frame.Size = UDim2.new(0, 378, 0, 250)
+Frame.Size = UDim2.new(0, 270, 0, 250)
+
+Name.Name = "Name"
+Name.Parent = Frame
+Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Name.BackgroundTransparency = 1.000
+Name.Size = UDim2.new(0, 130, 0, 45)
+Name.Font = Enum.Font.GothamBold
+Name.Text = "b00sjkidd gui EPIC version 2.74 By TJ_TEAMJKLO"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
@@ -54,7 +70,7 @@ Credits.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Credits.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BorderSizePixel = 3
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
-Credits.Size = UDim2.new(0, 378, 0, 22)
+Credits.Size = UDim2.new(0, 79, 0, 31)
 Credits.Font = Enum.Font.GothamBold
 Credits.Text = "PAGE3"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -67,8 +83,8 @@ dss.Visible = true
 daytonights.Visible = true
 e1x1x1x1laughs.Visible = true
 CREDITS.Visible = true
-f666.Visible = true
 DISC0S.Visible = true
+e2006themeS.Visible = true
 Credits.Visible = false
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
@@ -88,7 +104,7 @@ CREDITS.Visible = false
 CREDITS.BorderColor3 = Color3.fromRGB(255, 255, 255)
 CREDITS.BorderSizePixel = 3
 CREDITS.Position = UDim2.new(0, 0, 0.912, 0)
-CREDITS.Size = UDim2.new(0, 378, 0, 22)
+CREDITS.Size = UDim2.new(0, 79, 0, 31)
 CREDITS.Font = Enum.Font.GothamBold
 CREDITS.Text = "BACK"
 CREDITS.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -101,8 +117,8 @@ dss.Visible = false
 CREDITS.Visible = false
 daytonights.Visible = false
 e1x1x1x1laughs.Visible = false
-f666.Visible = false
 DISC0S.Visible = false
+e2006themeS.Visible = false
 Credits.Visible = true
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
@@ -115,19 +131,22 @@ EpicSaxGuy.Visible = true
 e666.Visible = true
 wait(0.2)
 end)
-local upd = 2.74
-Name.Name = "Name"
-Name.Parent = Frame
-Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Name.BackgroundTransparency = 1.000
-Name.Size = UDim2.new(0, 378, 0, 25)
-Name.Font = Enum.Font.GothamBold
-Name.Text = "b00sjkidd👑"..upd
-Name.TextColor3 = Color3.fromRGB(0, 0, 0)
-Name.TextScaled = true
-Name.TextSize = 14.000
-Name.TextWrapped = true
+PAGE4.Name = "Credits"
+PAGE4.Parent = Frame
+PAGE4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PAGE4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PAGE4.BorderSizePixel = 3
+PAGE4.Position = UDim2.new(0, 80, 0.912, 0)
+PAGE4.Size = UDim2.new(0, 79, 0, 31)
+PAGE4.Font = Enum.Font.GothamBold
+PAGE4.Text = "PAGE4"
+PAGE4.TextColor3 = Color3.fromRGB(0, 0, 0)
+PAGE4.TextScaled = true
+PAGE4.TextSize = 14.000
+PAGE4.TextWrapped = true
+PAGE4.MouseButton1Down:connect(function()
 
+end)
 AR.Name = "autoreport"
 AR.Parent = Frame
 AR.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
@@ -136,21 +155,159 @@ AR.BorderSizePixel = 3
 AR.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 AR.Size = UDim2.new(0, 79, 0, 31)
 AR.Font = Enum.Font.GothamBold
-AR.Text = "NOTIFICATION"
+AR.Text = "BallRain"
 AR.TextColor3 = Color3.fromRGB(0, 0, 0)
 AR.TextScaled = true
 AR.TextSize = 14.000
 AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
-while true do 
-game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "team JKLO",
-        Text = "JOIN TEAM JKLO TODAY!",
-        Icon = "http://www.roblox.com/asset/?id=15651176489",
-        Callback = Function
-    })
-    wait(1)
-end
+while true do
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			wait()
+			doom=Instance.new("Part")
+			local imnotfat = math.random(1, 3)
+			if imnotfat == 1 then
+				doom.Shape = "Ball"
+			else if imnotfat == 2 then
+					doom.Shape = "Cylinder"
+				else 
+				end end
+			doom.Material = "Neon"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			yooka=math.random(-200, -50)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, yooka, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, 800, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+		end
+end)
+DR.Name = "decalspam"
+DR.Parent = Frame
+DR.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+DR.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DR.BorderSizePixel = 3
+DR.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
+DR.Size = UDim2.new(0, 79, 0, 31)
+DR.Font = Enum.Font.GothamBold
+DR.Text = "BALLRAIN"
+DR.TextColor3 = Color3.fromRGB(0, 0, 0)
+DR.TextScaled = true
+DR.TextSize = 14.000
+DR.TextWrapped = true
+DR.MouseButton1Down:connect(function()
+while true do
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			wait()
+			doom=Instance.new("Part")
+			local imnotfat = math.random(1, 3)
+			if imnotfat == 1 then
+				doom.Shape = "Ball"
+			else if imnotfat == 2 then
+					doom.Shape = "Cylinder"
+				else 
+				end end
+			doom.Material = "Neon"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			yooka=math.random(-200, -50)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, yooka, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, 800, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+		end
 end)
 DS.Name = "decalspam"
 DS.Parent = Frame
@@ -440,7 +597,6 @@ Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://6942391979"
 		Spooky.Volume = 6e9
-                Spooky.Pitch = 0.8
 		Spooky.Looped = true
 		Spooky:Play()
 end)
@@ -523,10 +679,10 @@ e1x1x1x1laughs.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 e1x1x1x1laughs.BorderColor3 = Color3.fromRGB(255, 255, 255)
 e1x1x1x1laughs.BorderSizePixel = 3
 e1x1x1x1laughs.Visible = false
-e1x1x1x1laughs.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
-e1x1x1x1laughs.Size = UDim2.new(0, 79, 0, 34)
+e1x1x1x1laughs.Position = UDim2.new(0.0714285746, 0, 0.649000000, 0)
+e1x1x1x1laughs.Size = UDim2.new(0, 185, 0, 25)
 e1x1x1x1laughs.Font = Enum.Font.GothamBold
-e1x1x1x1laughs.Text = "STOP"
+e1x1x1x1laughs.Text = "STOP ALL SOUND"
 e1x1x1x1laughs.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1laughs.TextScaled = true
 e1x1x1x1laughs.TextSize = 14.000
@@ -788,87 +944,17 @@ DayToNights.Visible = false
 DayToNights.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
 DayToNights.Size = UDim2.new(0, 83, 0, 31)
 DayToNights.Font = Enum.Font.GothamBold
-DayToNights.Text = "k00pz SkyBox"
+DayToNights.Text = "MSG"
 DayToNights.TextColor3 = Color3.fromRGB(0, 0, 0)
 DayToNights.TextScaled = true
 DayToNights.TextSize = 14.000
 DayToNights.TextWrapped = true
 DayToNights.MouseButton1Down:connect(function()
-imageOne = "http://www.roblox.com/asset/?id=9422866248"
-imageTwo = "http://www.roblox.com/asset/?id=11588317701"
-imageThree = "http://www.roblox.com/asset/?id=9422866248"
-imageFour = "http://www.roblox.com/asset/?id=11588317701"
-imageFive = "http://www.roblox.com/asset/?id=9422866248"
-imageSix = "http://www.roblox.com/asset/?id=11588317701"
-imageSeven = "http://www.roblox.com/asset/?id=9422866248"
-imageEight = "http://www.roblox.com/asset/?id=11588317701"
-
-Sky = Instance.new("Sky", game.Lighting)
-Sky.SkyboxBk = imageOne
-Sky.SkyboxDn = imageOne
-Sky.SkyboxFt = imageOne
-Sky.SkyboxLf = imageOne
-Sky.SkyboxRt = imageOne
-Sky.SkyboxUp = imageOne
-
-while true do
-    Sky.SkyboxBk = imageOne
-    Sky.SkyboxDn = imageOne
-    Sky.SkyboxFt = imageOne
-    Sky.SkyboxLf = imageOne
-    Sky.SkyboxRt = imageOne
-    Sky.SkyboxUp = imageOne
-    wait(0.25)
-    Sky.SkyboxBk = imageTwo
-    Sky.SkyboxDn = imageTwo
-    Sky.SkyboxFt = imageTwo
-    Sky.SkyboxLf = imageTwo
-    Sky.SkyboxRt = imageTwo
-    Sky.SkyboxUp = imageTwo
-    wait(0.25)
-    Sky.SkyboxBk = imageThree
-    Sky.SkyboxDn = imageThree
-    Sky.SkyboxFt = imageThree
-    Sky.SkyboxLf = imageThree
-    Sky.SkyboxRt = imageThree
-    Sky.SkyboxUp = imageThree
-    wait(0.25)
-    Sky.SkyboxBk = imageFour
-    Sky.SkyboxDn = imageFour
-    Sky.SkyboxFt = imageFour
-    Sky.SkyboxLf = imageFour
-    Sky.SkyboxRt = imageFour
-    Sky.SkyboxUp = imageFour
-    wait(0.25)
-    Sky.SkyboxBk = imageFive
-    Sky.SkyboxDn = imageFive
-    Sky.SkyboxFt = imageFive
-    Sky.SkyboxLf = imageFive
-    Sky.SkyboxRt = imageFive
-    Sky.SkyboxUp = imageFive
-    wait(0.25)
-    Sky.SkyboxBk = imageSix
-    Sky.SkyboxDn = imageSix
-    Sky.SkyboxFt = imageSix
-    Sky.SkyboxLf = imageSix
-    Sky.SkyboxRt = imageSix
-    Sky.SkyboxUp = imageSix
-    wait(0.25)
-    Sky.SkyboxBk = imageSeven
-    Sky.SkyboxDn = imageSeven
-    Sky.SkyboxFt = imageSeven
-    Sky.SkyboxLf = imageSeven
-    Sky.SkyboxRt = imageSeven
-    Sky.SkyboxUp = imageSeven
-    wait(0.25)
-    Sky.SkyboxBk = imageEight
-    Sky.SkyboxDn = imageEight
-    Sky.SkyboxFt = imageEight
-    Sky.SkyboxLf = imageEight
-    Sky.SkyboxRt = imageEight
-    Sky.SkyboxUp = imageEight
-    wait(0.25)
-end
+local m = Instance.new("Message", game.workspace)
+		m.Text = "HAHAHAHA YOUR GAME GOT EXPLOITED BY BOSSJKLOðŸ¡"
+                m.Looped = true
+wait(1)
+m:Destroy()
 end)
 daytonights.Name = "DayToNight"
 daytonights.Parent = Frame
@@ -924,6 +1010,7 @@ ForceFields.Visible = true
 e2006Themes.Visible = true
 Credits.Visible = false
 CREDITS.Visible = false
+PAGE4.Visible = false
 ars.Visible = false
 dss.Visible = false
 daytonights.Visible = false
@@ -966,6 +1053,7 @@ e2006Themes.Visible = false
 E2006THEMES.Visible = false
 Credits.Visible = true
 CREDITS.Visible = true
+PAGE4.Visible = true
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
 DS.Visible = true
@@ -1021,7 +1109,8 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				newgui.Name = "k00p's Jumpscare"
 				local newimage = Instance.new("ImageLabel",newgui)
 				newimage.Image = "http://www.roblox.com/Asset/?id=15672147619"
-				newimage.Size = UDim2.new(1,1,1,1)
+				newimage.Size = UDim2.new(0,400,0,345)
+                                newimage.Position = UDim2.new(0,math.random(1,1000),0,math.random(1,1000))
                                 newimage.BackgroundTransparency = 1
                                 local m = Instance.new("Hint", game.workspace)
 		                m.Text = " YCOOBJIDD JOINED TO DESTROY HAHA!11!2!"
@@ -1186,6 +1275,17 @@ h.Text = "KingDof39 change the experience guys!!! have fun😱👌"
 wait(9999999999999)
 h:Remove()
 end)
+IMAGE.Name = "PercentageBar"
+IMAGE.Parent = LoadingFrame
+IMAGE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IMAGE.BackgroundTransparency = 1.000
+IMAGE.Position = UDim2.new(0.693121672, 0, 0.220000006, 0)
+IMAGE.Size = UDim2.new(0.55, 0, 0, 50)
+IMAGE.Image = "rbxassetid://15651176449"
+IMAGE.ImageColor3 = Color3.fromRGB(35, 35, 35)
+IMAGE.ScaleType = Enum.ScaleType.Slice
+IMAGE.SliceCenter = Rect.new(100, 100, 100, 100)
+IMAGE.SliceScale = 0.120
 
 Disc0s.Name = "Disc0"
 Disc0s.Parent = Frame
@@ -1359,85 +1459,24 @@ DISC0S.Visible = false
 DISC0S.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
 DISC0S.Size = UDim2.new(0, 89, 0, 31)
 DISC0S.Font = Enum.Font.GothamBold
-DISC0S.Text = "JUMPIFY"
+DISC0S.Text = "FUNNI"
 DISC0S.TextColor3 = Color3.fromRGB(0, 0, 0)
 DISC0S.TextScaled = true
 DISC0S.TextSize = 14.000
 DISC0S.TextWrapped = true
 DISC0S.MouseButton1Down:connect(function()
-local ID = 15690319034
-local particle = true
-
--- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
-
-if particle == true then
-	for i,v in pairs (game.Workspace:GetChildren()) do
-		if v:IsA("Part") then
-			local particle = Instance.new("ParticleEmitter")
-			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
-			particle.Parent = v
-			particle.Rate = 200
-			for i,x in pairs (game.Workspace:GetChildren()) do
-				if x:IsA("Model") then
-					for i,z in pairs (x:GetChildren()) do
-						if z:IsA("Part") then
-							local particle2 = Instance.new("ParticleEmitter")
-							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
-							particle2.Parent = z
-							particle2.Rate = 200
-						end
-					end
-				end
-			end
-		end
-	end
-end
-wait()
-sky = Instance.new("Sky",game:GetService("Lighting"))
-sky.SkyboxBk = "http://www.roblox.com/asset/?id=15690319034"
-sky.SkyboxFt = "http://www.roblox.com/asset/?id=15690319034"
-sky.SkyboxLf = "http://www.roblox.com/asset/?id=15690319034"
-sky.SkyboxRt = "http://www.roblox.com/asset/?id=15690319034"
-sky.SkyboxUp = "http://www.roblox.com/asset/?id=15690319034"
-wait()
-local ID = 11379488396 --id here
-function spamDecal(v)
-	if v:IsA("Part") then
-		for i = 0, 5 do
-			D = Instance.new("Decal")
-			D.Name = "k00pz_decal_1"
-			D.Face = i
-			D.Parent = v
-			D.Texture = ("http://www.roblox.com/asset/?id="..Id)
-		end
-	else
-		if v:IsA("Model") then
-			for a,b in pairs(v:GetChildren()) do
-				spamDecal(b)
-			end
-		end
-	end
-end
-function decalspam(id) --use this function, not the one on top
-	Id = id
-	for i,v in pairs(game.Workspace:GetChildren()) do
-		if v:IsA("Part") then
-			for i= 0, 5 do
-				D = Instance.new("Decal")
-				D.Name = "k00pz_decal_2"
-				D.Face = i
-				D.Parent = v
-				D.Texture = ("http://www.roblox.com/asset/?id="..id)
-			end
-		else
-			if v:IsA("Model") then
-				for a,b in pairs(v:GetChildren()) do
-					spamDecal(b)
-				end
-			end
-		end
-	end
-end
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://247893371"
+sound.Volume = 9e9
+sound:Play()
+sound.Looped = true
+repeat
+wait(0.01)
+until sound.IsLoaded == true
+wait(13)
+de = Instance.new("DistortionSoundEffect",sound)
+de.Level = 0.8
 end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
@@ -1477,12 +1516,12 @@ e2006Themes.TextWrapped = true
 e2006Themes.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15573950094"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15573950094"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15651176449"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15651176449"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15651176449"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15651176449"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15651176449"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15651176449"
                 s.Parent = game.Lighting
 wait()
 E2006THEMES.Visible = true
@@ -1506,17 +1545,40 @@ E2006THEMES.TextWrapped = true
 E2006THEMES.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15651176489"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15651176489"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15651176489"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15651176489"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15651176489"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15651176489"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15630705973"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15630705973"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15630705973"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15630705973"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15630705973"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15630705973"
                 s.Parent = game.Lighting
 wait()
 E2006THEMES.Visible = false
 e2006Themes.Visible = true
 wait()
+end)
+e2006themeS.Name = "e2006Theme"
+e2006themeS.Parent = Frame
+e2006themeS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+e2006themeS.BorderColor3 = Color3.fromRGB(255, 255, 255)
+e2006themeS.BorderSizePixel = 3
+e2006themeS.Visible = false
+e2006themeS.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
+e2006themeS.Size = UDim2.new(0, 89, 0, 31)
+e2006themeS.Font = Enum.Font.GothamBold
+e2006themeS.Text = "InnapropriateAudio"
+e2006themeS.TextColor3 = Color3.fromRGB(0, 0, 0)
+e2006themeS.TextScaled = true
+e2006themeS.TextSize = 14.000
+e2006themeS.TextWrapped = true
+e2006themeS.MouseButton1Down:connect(function()
+local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://6834218705 "
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
 end)
 ForceField.Name = "ForceField"
 ForceField.Parent = Frame
